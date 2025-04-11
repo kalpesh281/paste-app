@@ -6,7 +6,7 @@ import ViewPaste from "./components/ViewPaste";
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-yellow-50"> {/* or bg-green-50 for light green */}
+      <div className="min-h-screen bg-gradient-to-br from-yellow-50 to-orange-50"> 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/paste" element={<Paste />} />

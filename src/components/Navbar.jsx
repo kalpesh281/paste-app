@@ -17,7 +17,7 @@ function Navbar() {
               to="/paste" 
               className="text-gray-700 hover:text-blue-600 px-4 py-2 text-base font-medium transition-colors"
             >
-              New Paste
+              Pastes
             </Link>
           </div>
         </div>
